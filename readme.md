@@ -1,4 +1,4 @@
-# Mental Health Chatbot - Mobile AI Assistant
+# Mental Health Chatbot - Mobile AI Assistant [Sample Video](https://drive.google.com/file/d/1jmju8upvCVEVkJ_QUbQax5TwPpLvHG-u/view?usp=sharing)
 
 A mobile-optimized AI chatbot system with intelligent orchestration for mental health topics (Anxiety, Bipolar, Depression, OCD, Schizophrenia). The system uses a classifier-based orchestrator to route user queries to specialized fine-tuned models that run entirely on-device using TensorFlow Lite.
 

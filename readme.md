@@ -254,11 +254,11 @@ Experimental Mixture of Experts (MoE) architecture for combining multiple specia
 
 | Model | Base | Parameters | Training | Output Size | Mobile Size |
 |-------|------|------------|----------|-------------|-------------|
-| Anxiety Chatbot | Gemma-3-1B | 1B | 3 epochs | ~500MB | ~150MB |
-| Bipolar Chatbot | Gemma-3-1B | 1B | 3 epochs | ~500MB | ~150MB |
-| Depression Chatbot | Gemma-3-1B | 1B | 3 epochs | ~500MB | ~150MB |
-| OCD Chatbot | Gemma-3-1B | 1B | 3 epochs | ~500MB | ~150MB |
-| Schizophrenia Chatbot | Gemma-3-1B | 1B | 3 epochs | ~500MB | ~150MB |
+| Anxiety Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
+| Bipolar Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
+| Depression Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
+| OCD Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
+| Schizophrenia Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
 | Orchestrator | TF-IDF + LogReg | ~5K features | N/A | ~50MB | ~50MB |
 
 ### Orchestrator Performance
@@ -322,7 +322,3 @@ This project uses:
 - HuggingFace for Transformers and PEFT libraries
 - MediaPipe for mobile deployment tools
 - Scikit-learn for orchestration classifier
-
----
-
-**⚠️ Disclaimer**: This is a research project for educational purposes. These models should not replace professional mental health care. Always consult qualified healthcare professionals for mental health concerns.

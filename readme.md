@@ -260,10 +260,10 @@ Experimental Mixture of Experts (MoE) architecture for combining multiple specia
 | Depression Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
 | OCD Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
 | Schizophrenia Chatbot | Gemma-3-1B | 1B | 3 epochs | ~490MB | ~550MB |
-| Orchestrator | TF-IDF + LogReg | ~5K features | N/A | ~50MB | ~50MB |
+| Orchestrator | TF-IDF + LogReg | ~5K features | N/A | ~350KB | ~50MB |
 
 ### Orchestrator Performance
-- **Accuracy**: ~85-95% (depends on training data quality)
+- **Accuracy**: ~87% 
 - **Inference**: <10ms on CPU
 - **Classes**: 5 mental health categories
 - **Features**: TF-IDF with bigrams, 5000 max features
@@ -298,7 +298,7 @@ PyTorch Model → AI Edge Torch → TFLite → MediaPipe Bundle → .task
 - **Routing Inference**: <10ms per query (CPU)
 - **Model Inference**: ~2-5 tokens/sec on mobile (varies by device)
 - **Model Size**: ~150MB per .task bundle
-- **Total System**: ~750MB for all 5 models + 50MB orchestrator
+- **Total System**: ~750MB for all 5 models + 350KB orchestrator
 
 ## 🤝 Contributing
 

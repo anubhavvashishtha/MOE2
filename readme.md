@@ -39,6 +39,7 @@ This project creates an intelligent mental health chatbot system that runs on mo
 - [Results](https://drive.google.com/drive/folders/15dC9hV4wE5AbOgiIZ0fd-k9frnbY-2Cl?usp=sharing) - Results on Drive
 - [Tflite](https://drive.google.com/drive/folders/13ezzGJjhfwZYFZrWFJ1tb50R2hORGTSr?usp=sharing) - Tflite is the intermediate step or you can say quantized version before deployment
 - [Task](https://drive.google.com/drive/folders/1-Q738xri5ZWYKD8OtMuVBA7T9cfuKfvH?usp=sharing) - Format that allows deployment
+- [Data](https://drive.google.com/drive/folders/1NcERdwz8T4eSXQKUQG59Ty9ymKV0DPN5?usp=sharing) - The books gemma3 trained on
 
 ## 🚀 Getting Started
 
